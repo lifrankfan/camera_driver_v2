@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7s50csga324-1" LaunchTime="1713846148">
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="camera_toplevel_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="camera_toplevel_routed.rqs"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-DRC" Name="camera_toplevel.drc"/>
+  <File Type="BG-BGN" Name="camera_toplevel.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="camera_toplevel.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="camera_toplevel.ltx"/>
+  <File Type="RBD_FILE" Name="camera_toplevel.rbd"/>
+  <File Type="NPI_FILE" Name="camera_toplevel.npi"/>
+  <File Type="RNPI_FILE" Name="camera_toplevel.rnpi"/>
+  <File Type="CFI_FILE" Name="camera_toplevel.cfi"/>
+  <File Type="RCFI_FILE" Name="camera_toplevel.rcfi"/>
+  <File Type="RDI-RDI" Name="camera_toplevel.vdi"/>
+  <File Type="PDI-FILE" Name="camera_toplevel.pdi"/>
+  <File Type="BITSTR-MMI" Name="camera_toplevel.mmi"/>
+  <File Type="BITSTR-BMM" Name="camera_toplevel_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="camera_toplevel.nky"/>
+  <File Type="BITSTR-RBT" Name="camera_toplevel.rbt"/>
+  <File Type="BITSTR-MSK" Name="camera_toplevel.msk"/>
+  <File Type="BG-BIN" Name="camera_toplevel.bin"/>
+  <File Type="BG-BIT" Name="camera_toplevel.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="camera_toplevel_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="camera_toplevel_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="camera_toplevel_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="camera_toplevel_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="camera_toplevel_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="camera_toplevel_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="camera_toplevel_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="camera_toplevel_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="camera_toplevel_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="camera_toplevel_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW" Name="camera_toplevel_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="camera_toplevel_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="camera_toplevel_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="camera_toplevel_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="camera_toplevel_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="camera_toplevel_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="camera_toplevel_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="camera_toplevel_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="camera_toplevel_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="camera_toplevel_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="camera_toplevel_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="camera_toplevel_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="camera_toplevel_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="camera_toplevel_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="camera_toplevel_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="camera_toplevel_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="camera_toplevel_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="camera_toplevel_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="camera_toplevel_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="camera_toplevel_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="camera_toplevel_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="camera_toplevel_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="camera_toplevel_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="camera_toplevel_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="camera_toplevel_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="camera_toplevel_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="camera_toplevel_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="camera_toplevel_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="camera_toplevel_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="camera_toplevel_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="camera_toplevel_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="camera_toplevel_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="camera_toplevel_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="camera_toplevel_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="camera_toplevel_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="camera_toplevel_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="camera_toplevel_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="camera_toplevel.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="camera_toplevel_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="camera_toplevel_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="camera_toplevel_opt.dcp"/>
+  <File Type="OPT-TIMING" Name="camera_toplevel_timing_summary_opted.rpt"/>
+  <File Type="REPORTS-TCL" Name="camera_toplevel_reports.tcl"/>
+  <File Type="INIT-TIMING" Name="camera_toplevel_timing_summary_init.rpt"/>
+  <File Type="PA-TCL" Name="camera_toplevel.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/i2c_interface/i2c_interface.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PGENDIR/sources_1/bd/i2c_interface/hdl/i2c_interface_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/camera_toplevel.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="camera_toplevel"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/pin_map.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/pin_map.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/camera_toplevel.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="i2c_interface_axi_to_iic_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="i2c_interface_axi_uartlite_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="i2c_interface_clk_wiz_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="i2c_interface_microblaze_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="i2c_interface_mdm_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="i2c_interface_microblaze_0_axi_intc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="i2c_interface_rst_clk_wiz_1_100M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="i2c_interface_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="i2c_interface_lmb_bram_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="i2c_interface_ilmb_bram_if_cntlr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="i2c_interface_dlmb_bram_if_cntlr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="i2c_interface_ilmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="i2c_interface_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="i2c_interface_dlmb_v10_0"/>
+</GenRun>

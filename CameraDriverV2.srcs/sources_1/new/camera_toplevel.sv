@@ -3,7 +3,7 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 04/19/2024 12:24:43 AM
+// Create Date: 04/18/2024 06:16:47 PM
 // Design Name: 
 // Module Name: camera_toplevel
 // Project Name: 
@@ -19,59 +19,26 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
+
 module camera_toplevel(
-    input logic Clk,
-    input logic reset_rtl_0,
-    
-    
-    // UART
-    input logic uart_rtl_0_rxd,
-    output logic uart_rtl_0_txd,
-    
-    // LED
-    output logic led,
-    
-    // I2C
-    input logic sda,
-    output logic scl
+    input clk_100MHz,
+    output [0:0]gpio_rtl_0_tri_o,
+    input reset_rtl_0,
+    output scl_0,
+    inout sda_0,
+    input uart_rtl_0_rxd,
+    output uart_rtl_0_txd
     );
     
-    // sda buff signals
-    logic sdao;
-    logic SDA;
-    logic sdai;
-    logic sdat;
-    
-    // scl buff signals
-    logic sclo;
-    logic SCL;
-    logic scli;
-    logic sclt;
-    
-    assign sda_p = SDA;
-    assign scl_p = SCL;
-    
-    IOBUF #(
-       .DRIVE(12),
-       .IOSTANDARD("DEFAULT"), // Specify the I/O standard
-       .SLEW("SLOW") // Specify the output slew rateendmodule
-    ) IOBUF_sda_inst (
-       .O(sdao),     // Buffer output
-       .IO(SDA),     // Buffer inout port (connect directly to top-level port)
-       .I(sdai),     // Buffer input
-       .T(sdat)      // 3-state enable input, high=input, low=output
-     );
-     
-     IOBUF #(
-       .DRIVE(12),
-       .IOSTANDARD("DEFAULT"), // Specify the I/O standard
-       .SLEW("SLOW") // Specify the output slew rateendmodule
-    ) IOBUF_scl_inst (
-       .O(sclo),     // Buffer output
-       .IO(SCL),     // Buffer inout port (connect directly to top-level port)
-       .I(scli),     // Buffer input
-       .T(sclt)      // 3-state enable input, high=input, low=output
-     );
-        
-    
+    i2c_interface i2c_interface_i(
+        .clk_100MHz(clk_100MHz),
+        .gpio_rtl_0_tri_o(gpio_rtl_0_tri_o),
+        .reset_rtl_0(~reset_rtl_0),
+        .scl_0(scl_0),
+        .sda_0(sda_0),
+        .uart_rtl_0_rxd(uart_rtl_0_rxd),
+        .uart_rtl_0_txd(uart_rtl_0_txd)
+    );
 endmodule
+
+

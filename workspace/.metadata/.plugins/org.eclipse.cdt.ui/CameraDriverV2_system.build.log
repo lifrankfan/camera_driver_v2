@@ -1,6 +1,6 @@
-21:20:25 **** Build of configuration Debug for project CameraDriverV2_system ****
+01:20:41 **** Incremental Build of configuration Debug for project CameraDriverV2_system ****
 make all 
 Skipping SD card image generation. Reason: The system project only has applications for microblaze processors.
 
-21:20:25 Build Finished (took 326ms)
+01:20:41 Build Finished (took 288ms)
 

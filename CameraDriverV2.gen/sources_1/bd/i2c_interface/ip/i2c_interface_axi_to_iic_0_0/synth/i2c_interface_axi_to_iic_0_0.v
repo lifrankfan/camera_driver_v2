@@ -48,7 +48,7 @@
 
 
 // IP VLNV: user.org:user:axi_to_iic:1.0
-// IP Revision: 9
+// IP Revision: 13
 
 (* X_CORE_INFO = "axi_to_iic,Vivado 2022.2" *)
 (* CHECK_LICENSE_TYPE = "i2c_interface_axi_to_iic_0_0,axi_to_iic,{}" *)

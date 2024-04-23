@@ -46,3 +46,20 @@ platform clean
 platform generate
 platform clean
 platform generate
+platform active {camera_toplevel}
+platform config -updatehw {/media/lifrankfan/CrucialX6/CameraDriverV2/camera_toplevel.xsa}
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform config -updatehw {/media/lifrankfan/CrucialX6/CameraDriverV2/camera_toplevel.xsa}
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate

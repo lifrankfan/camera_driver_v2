@@ -157,8 +157,8 @@ vcom -work xil_defaultlib -93  \
 "../../../bd/i2c_interface/ip/i2c_interface_rst_clk_wiz_1_100M_0/sim/i2c_interface_rst_clk_wiz_1_100M_0.vhd" \
 
 vlog -work xil_defaultlib  -sv2k12 "+incdir+../../../../CameraDriverV2.gen/sources_1/bd/i2c_interface/ipshared/ec67/hdl" "+incdir+../../../../CameraDriverV2.gen/sources_1/bd/i2c_interface/ipshared/7698" \
-"../../../bd/i2c_interface/ipshared/7567/hdl/axi_to_iic_v1_0_AXI.v" \
-"../../../bd/i2c_interface/ipshared/7567/hdl/axi_to_iic_v1_0.v" \
+"../../../bd/i2c_interface/ipshared/bee0/hdl/axi_to_iic_v1_0_AXI.v" \
+"../../../bd/i2c_interface/ipshared/bee0/hdl/axi_to_iic_v1_0.v" \
 
 vlog -work xil_defaultlib  -v2k5 "+incdir+../../../../CameraDriverV2.gen/sources_1/bd/i2c_interface/ipshared/ec67/hdl" "+incdir+../../../../CameraDriverV2.gen/sources_1/bd/i2c_interface/ipshared/7698" \
 "../../../bd/i2c_interface/ip/i2c_interface_axi_to_iic_0_0/sim/i2c_interface_axi_to_iic_0_0.v" \

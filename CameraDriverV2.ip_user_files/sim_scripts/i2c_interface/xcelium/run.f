@@ -108,8 +108,8 @@
   "../../../bd/i2c_interface/ip/i2c_interface_rst_clk_wiz_1_100M_0/sim/i2c_interface_rst_clk_wiz_1_100M_0.vhd" \
 -endlib
 -makelib xcelium_lib/xil_defaultlib -sv \
-  "../../../bd/i2c_interface/ipshared/7567/hdl/axi_to_iic_v1_0_AXI.v" \
-  "../../../bd/i2c_interface/ipshared/7567/hdl/axi_to_iic_v1_0.v" \
+  "../../../bd/i2c_interface/ipshared/bee0/hdl/axi_to_iic_v1_0_AXI.v" \
+  "../../../bd/i2c_interface/ipshared/bee0/hdl/axi_to_iic_v1_0.v" \
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
   "../../../bd/i2c_interface/ip/i2c_interface_axi_to_iic_0_0/sim/i2c_interface_axi_to_iic_0_0.v" \

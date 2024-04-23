@@ -86,3 +86,67 @@ timestamp=[2024-04-22 21:20:16], mode=PLATFORM_GENERATION, duration=0:00:05.114,
 timestamp=[2024-04-22 21:20:23], mode=PLATFORM_GENERATION, duration=0:00:06.345, duration_ms=6345, data={name=camera_toplevel}
 timestamp=[2024-04-22 21:20:24], mode=BUILD, duration=0:00:00.788, duration_ms=788, data={name=CameraDriverV2, configuration=Debug, clean_build=false}
 timestamp=[2024-04-22 21:20:25], mode=BUILD, duration=0:00:00.338, duration_ms=338, data={name=CameraDriverV2_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 23:50:52], mode=BUILD, duration=0:00:00.324, duration_ms=324, data={name=CameraDriverV2, configuration=Debug, clean_build=true}
+timestamp=[2024-04-22 23:50:52], mode=BUILD, duration=0:00:00.231, duration_ms=231, data={name=CameraDriverV2_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-22 23:50:58], mode=PLATFORM_GENERATION, duration=0:00:05.382, duration_ms=5382, data={name=camera_toplevel}
+timestamp=[2024-04-22 23:51:05], mode=PLATFORM_GENERATION, duration=0:00:06.988, duration_ms=6988, data={name=camera_toplevel}
+timestamp=[2024-04-22 23:51:06], mode=BUILD, duration=0:00:00.692, duration_ms=692, data={name=CameraDriverV2, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 23:51:07], mode=BUILD, duration=0:00:00.313, duration_ms=313, data={name=CameraDriverV2_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 23:52:26], mode=BUILD, duration=0:00:00.245, duration_ms=245, data={name=CameraDriverV2, configuration=Debug, clean_build=true}
+timestamp=[2024-04-22 23:52:26], mode=BUILD, duration=0:00:00.281, duration_ms=281, data={name=CameraDriverV2_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-22 23:52:31], mode=PLATFORM_GENERATION, duration=0:00:05.263, duration_ms=5263, data={name=camera_toplevel}
+timestamp=[2024-04-22 23:52:38], mode=PLATFORM_GENERATION, duration=0:00:06.177, duration_ms=6177, data={name=camera_toplevel}
+timestamp=[2024-04-22 23:52:39], mode=BUILD, duration=0:00:00.690, duration_ms=690, data={name=CameraDriverV2, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 23:52:40], mode=BUILD, duration=0:00:00.279, duration_ms=279, data={name=CameraDriverV2_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 23:54:30], mode=BUILD, duration=0:00:00.310, duration_ms=310, data={name=CameraDriverV2, configuration=Debug, clean_build=true}
+timestamp=[2024-04-22 23:54:31], mode=BUILD, duration=0:00:00.290, duration_ms=290, data={name=CameraDriverV2_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-22 23:54:36], mode=PLATFORM_GENERATION, duration=0:00:05.428, duration_ms=5428, data={name=camera_toplevel}
+timestamp=[2024-04-22 23:54:42], mode=PLATFORM_GENERATION, duration=0:00:06.295, duration_ms=6295, data={name=camera_toplevel}
+timestamp=[2024-04-22 23:54:43], mode=BUILD, duration=0:00:00.688, duration_ms=688, data={name=CameraDriverV2, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 23:54:44], mode=BUILD, duration=0:00:00.304, duration_ms=304, data={name=CameraDriverV2_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-23 00:17:14], mode=BUILD, duration=0:00:00.360, duration_ms=360, data={name=CameraDriverV2, configuration=Debug, clean_build=true}
+timestamp=[2024-04-23 00:17:14], mode=BUILD, duration=0:00:00.228, duration_ms=228, data={name=CameraDriverV2_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-23 00:17:20], mode=PLATFORM_GENERATION, duration=0:00:05.327, duration_ms=5327, data={name=camera_toplevel}
+timestamp=[2024-04-23 00:17:27], mode=PLATFORM_GENERATION, duration=0:00:07.028, duration_ms=7028, data={name=camera_toplevel}
+timestamp=[2024-04-23 00:17:28], mode=BUILD, duration=0:00:00.744, duration_ms=744, data={name=CameraDriverV2, configuration=Debug, clean_build=false}
+timestamp=[2024-04-23 00:17:29], mode=BUILD, duration=0:00:00.237, duration_ms=237, data={name=CameraDriverV2_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-23 00:20:57], mode=BUILD, duration=0:00:00.248, duration_ms=248, data={name=CameraDriverV2, configuration=Debug, clean_build=true}
+timestamp=[2024-04-23 00:20:57], mode=BUILD, duration=0:00:00.242, duration_ms=242, data={name=CameraDriverV2_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-23 00:21:03], mode=PLATFORM_GENERATION, duration=0:00:05.323, duration_ms=5323, data={name=camera_toplevel}
+timestamp=[2024-04-23 00:21:09], mode=PLATFORM_GENERATION, duration=0:00:06.283, duration_ms=6283, data={name=camera_toplevel}
+timestamp=[2024-04-23 00:21:10], mode=BUILD, duration=0:00:00.534, duration_ms=534, data={name=CameraDriverV2, configuration=Debug, clean_build=false}
+timestamp=[2024-04-23 00:21:11], mode=BUILD, duration=0:00:00.253, duration_ms=253, data={name=CameraDriverV2_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-23 00:29:56], mode=BUILD, duration=0:00:00.313, duration_ms=313, data={name=CameraDriverV2, configuration=Debug, clean_build=true}
+timestamp=[2024-04-23 00:29:56], mode=BUILD, duration=0:00:00.234, duration_ms=234, data={name=CameraDriverV2_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-23 00:30:01], mode=PLATFORM_GENERATION, duration=0:00:05.169, duration_ms=5169, data={name=camera_toplevel}
+timestamp=[2024-04-23 00:30:07], mode=PLATFORM_GENERATION, duration=0:00:06.137, duration_ms=6137, data={name=camera_toplevel}
+timestamp=[2024-04-23 00:30:08], mode=BUILD, duration=0:00:00.343, duration_ms=343, data={name=CameraDriverV2, configuration=Debug, clean_build=false}
+timestamp=[2024-04-23 00:32:07], mode=BUILD, duration=0:00:00.362, duration_ms=362, data={name=CameraDriverV2, configuration=Debug, clean_build=false}
+timestamp=[2024-04-23 00:34:06], mode=BUILD, duration=0:00:00.705, duration_ms=705, data={name=CameraDriverV2, configuration=Debug, clean_build=false}
+timestamp=[2024-04-23 00:35:05], mode=BUILD, duration=0:00:00.259, duration_ms=259, data={name=CameraDriverV2, configuration=Debug, clean_build=true}
+timestamp=[2024-04-23 00:35:06], mode=BUILD, duration=0:00:00.296, duration_ms=296, data={name=CameraDriverV2_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-23 00:35:11], mode=PLATFORM_GENERATION, duration=0:00:05.277, duration_ms=5277, data={name=camera_toplevel}
+timestamp=[2024-04-23 00:35:17], mode=PLATFORM_GENERATION, duration=0:00:06.316, duration_ms=6316, data={name=camera_toplevel}
+timestamp=[2024-04-23 00:35:18], mode=BUILD, duration=0:00:00.750, duration_ms=750, data={name=CameraDriverV2, configuration=Debug, clean_build=false}
+timestamp=[2024-04-23 00:35:19], mode=BUILD, duration=0:00:00.234, duration_ms=234, data={name=CameraDriverV2_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-23 00:40:48], mode=BUILD, duration=0:00:00.562, duration_ms=562, data={name=CameraDriverV2, configuration=Debug, clean_build=false}
+timestamp=[2024-04-23 00:40:49], mode=BUILD, duration=0:00:00.302, duration_ms=302, data={name=CameraDriverV2_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-23 00:57:07], mode=BUILD, duration=0:00:00.566, duration_ms=566, data={name=CameraDriverV2, configuration=Debug, clean_build=false}
+timestamp=[2024-04-23 00:57:08], mode=BUILD, duration=0:00:00.251, duration_ms=251, data={name=CameraDriverV2_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-23 00:58:48], mode=BUILD, duration=0:00:00.555, duration_ms=555, data={name=CameraDriverV2, configuration=Debug, clean_build=false}
+timestamp=[2024-04-23 00:58:49], mode=BUILD, duration=0:00:00.241, duration_ms=241, data={name=CameraDriverV2_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-23 01:02:31], mode=BUILD, duration=0:00:00.597, duration_ms=597, data={name=CameraDriverV2, configuration=Debug, clean_build=false}
+timestamp=[2024-04-23 01:02:32], mode=BUILD, duration=0:00:00.350, duration_ms=350, data={name=CameraDriverV2_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-23 01:10:43], mode=BUILD, duration=0:00:00.300, duration_ms=300, data={name=CameraDriverV2, configuration=Debug, clean_build=false}
+timestamp=[2024-04-23 01:11:04], mode=BUILD, duration=0:00:00.560, duration_ms=560, data={name=CameraDriverV2, configuration=Debug, clean_build=false}
+timestamp=[2024-04-23 01:11:05], mode=BUILD, duration=0:00:00.244, duration_ms=244, data={name=CameraDriverV2_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-23 01:13:30], mode=BUILD, duration=0:00:00.455, duration_ms=455, data={name=CameraDriverV2, configuration=Debug, clean_build=false}
+timestamp=[2024-04-23 01:13:31], mode=BUILD, duration=0:00:00.249, duration_ms=249, data={name=CameraDriverV2_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-23 01:13:57], mode=BUILD, duration=0:00:00.604, duration_ms=604, data={name=CameraDriverV2, configuration=Debug, clean_build=false}
+timestamp=[2024-04-23 01:13:58], mode=BUILD, duration=0:00:00.250, duration_ms=250, data={name=CameraDriverV2_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-23 01:15:51], mode=BUILD, duration=0:00:00.548, duration_ms=548, data={name=CameraDriverV2, configuration=Debug, clean_build=false}
+timestamp=[2024-04-23 01:15:52], mode=BUILD, duration=0:00:00.257, duration_ms=257, data={name=CameraDriverV2_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-23 01:19:11], mode=BUILD, duration=0:00:00.558, duration_ms=558, data={name=CameraDriverV2, configuration=Debug, clean_build=false}
+timestamp=[2024-04-23 01:19:12], mode=BUILD, duration=0:00:00.245, duration_ms=245, data={name=CameraDriverV2_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-23 01:20:40], mode=BUILD, duration=0:00:00.598, duration_ms=598, data={name=CameraDriverV2, configuration=Debug, clean_build=false}
+timestamp=[2024-04-23 01:20:41], mode=BUILD, duration=0:00:00.297, duration_ms=297, data={name=CameraDriverV2_system, configuration=Debug, clean_build=false}

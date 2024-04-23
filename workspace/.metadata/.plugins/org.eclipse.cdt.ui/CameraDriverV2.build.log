@@ -1,35 +1,23 @@
-21:20:23 **** Build of configuration Debug for project CameraDriverV2 ****
+01:20:39 **** Incremental Build of configuration Debug for project CameraDriverV2 ****
 make all 
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
 mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I/media/lifrankfan/CrucialX6/CameraDriverV2/workspace/camera_toplevel/export/camera_toplevel/sw/camera_toplevel/standalone_microblaze_0/bspinclude/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c:58:41: warning: initialization of 'volatile struct IICSTRUCT *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
-   58 | static volatile struct IICSTRUCT* iic = 0x44A00000;
+../src/helloworld.c:59:41: warning: initialization of 'volatile struct IICSTRUCT *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   59 | static volatile struct IICSTRUCT* iic = 0x44A00000;
       |                                         ^~~~~~~~~~
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:72:9: warning: implicit declaration of function 'writeBits' [-Wimplicit-function-declaration]
-   72 |         writeBits(data);
-      |         ^~~~~~~~~
-../src/helloworld.c:78:17: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
-   78 |                 sleep(1);
-      |                 ^~~~~
-../src/helloworld.c: At top level:
-../src/helloworld.c:86:6: warning: conflicting types for 'writeBits'; have 'void(u8)' {aka 'void(unsigned char)'}
-   86 | void writeBits(u8 data) {
-      |      ^~~~~~~~~
-../src/helloworld.c:72:9: note: previous implicit declaration of 'writeBits' with type 'void(u8)' {aka 'void(unsigned char)'}
-   72 |         writeBits(data);
-      |         ^~~~~~~~~
 ../src/helloworld.c: In function 'writeBits':
-../src/helloworld.c:96:9: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
-   96 |         usleep(5000);
+../src/helloworld.c:85:9: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+   85 |         usleep(5000);
       |         ^~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:139:17: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  139 |                 sleep(1);
+      |                 ^~~~~
+../src/helloworld.c:127:13: warning: unused variable 'rdata' [-Wunused-variable]
+  127 |     uint8_t rdata;
+      |             ^~~~~
 Finished building: ../src/helloworld.c
- 
-Building file: ../src/platform.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I/media/lifrankfan/CrucialX6/CameraDriverV2/workspace/camera_toplevel/export/camera_toplevel/sw/camera_toplevel/standalone_microblaze_0/bspinclude/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
-Finished building: ../src/platform.c
  
 Building target: CameraDriverV2.elf
 Invoking: MicroBlaze gcc linker
@@ -39,9 +27,9 @@ Finished building target: CameraDriverV2.elf
 Invoking: MicroBlaze Print Size
 mb-size CameraDriverV2.elf  |tee "CameraDriverV2.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   5964	    324	   3112	   9400	   24b8	CameraDriverV2.elf
+   6048	    324	   3108	   9480	   2508	CameraDriverV2.elf
 Finished building: CameraDriverV2.elf.size
  
 
-21:20:24 Build Finished (took 782ms)
+01:20:40 Build Finished (took 589ms)
 

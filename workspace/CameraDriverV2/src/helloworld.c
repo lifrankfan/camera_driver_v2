@@ -58,19 +58,79 @@ struct IICSTRUCT {
 
 static volatile struct IICSTRUCT* iic = 0x44A00000;
 
+void start() {
+	iic->sda = 1;
+	iic->scl = 1;
+	iic->sda = 0;
+}
+
+void end() {
+	iic->sda = 0;
+	iic->scl = 1;
+	iic->sda = 1;
+}
+
+void writeBits(uint8_t data) {
+	uint8_t temp;
+	iic->wen = 1;
+    for (int i = 0; i < 8; i++) {
+		iic->scl = 0; //toggle clock
+        temp = data & 0x80; //bit mask with 1000_0000
+        if (temp) { // msb is 1
+            iic->sda = 1;
+        } else {
+            iic->sda = 0;
+        }
+        data <<= 1;
+        usleep(5000);
+        iic->scl = 1;
+        usleep(5000);
+    }
+    iic->scl = 0;
+    iic->sda = 1;
+    iic->scl = 1;
+}
+
+uint8_t readBits() {
+    iic->wen = 0;
+    iic->scl = 0;
+    uint8_t output;
+    usleep(5000);
+    for (int i = 0; i < 8; i++){
+        iic->scl = 1; //pos edge
+        if (iic->sda) { // data is 1
+            output = output | 0x01;
+        } else {//data is 0
+            output = output & 0xFE;
+        }
+        if (i == 7) {
+        	break;
+        }
+        output = output << 1;
+        usleep(5000);
+        iic->scl = 0; //neg edge
+        usleep(5000);
+    }
+    iic->sda = 1;
+    iic->scl = 1;
+    return output;
+}
 
 int main()
 {
     init_platform();
-
+    iic->sda = 1;
+    iic->scl = 1;
     print("Hello World\n\r");
 
-    u8 data = 0xAA;
-
+    uint8_t wdata = 0xAA;
+    uint8_t rdata;
 
     while (1) {
     	xil_printf("scl on\n");
-    	writeBits(data);
+//    	rdata = readBits();
+//    	xil_printf("data: %x\n",data);
+    	writeBits(wdata);
 //		iic->sda = 0;
 //		iic->scl = 1;
 		xil_printf("scl off\n");
@@ -82,22 +142,4 @@ int main()
     print("Successfully ran Hello World application");
     cleanup_platform();
     return 0;
-}
-
-void writeBits(u8 data) {
-    u8 temp;
-    iic->wen = 1;
-    for (int i = 0; i < 8; i++) {
-        temp = data & 0x80; //bit mask with 1000_0000
-        if (temp) { // msb is 1
-            iic->sda = 1;
-        } else {
-            iic->sda = 0;
-        }
-        iic->scl = 0; //toggle clock
-        usleep(5000);
-        iic->scl = 1;
-        usleep(5000);
-        data <<= 1;
-    }
 }
